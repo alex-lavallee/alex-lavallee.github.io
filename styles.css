@@ -1,0 +1,117 @@
+/*Flex Grid*/
+.flex-grid {
+  display: flex;
+}
+.flex-grid .col {
+  flex: 1;
+}
+.flex-grid-thirds {
+  display: flex;
+  justify-content: space-between;
+}
+.flex-grid-thirds .col {
+  width: 32%;
+}
+/*Flex Tower*/
+.flex-tower {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 400px) {
+  .flex-grid,
+  .flex-grid-thirds {
+    display: block;
+    .col {
+      width: 100%;
+      margin: 0 0 10px 0;
+    }
+  }
+}
+
+
+
+
+* {
+  box-sizing: border-box;
+}
+body {
+  padding: 20px;
+}
+.flex-grid, .flex-tower {
+  margin: 0 0 200px 0;
+}
+.col {
+  padding: 20px;
+}
+
+header h1 {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 64px;
+}
+
+#navigation {
+  background-color: #000;
+}
+#navigation a {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 24px;
+  text-decoration: none;
+}
+#navigation a:link {color: #00FFCC}
+#navigation a:visited {color: #00FFCC}
+#navigation a:hover {color: #FFF}
+#navigation a:active {color: #FFF}
+
+#album {
+  background-color: #FFA7A7;
+  align-items:center;
+}
+#album-art {
+  background-color: #000;
+  width: 500px;
+  height: 500px;
+}
+#album-artist {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 60px;
+  color: #00FFCC;
+  text-align: center;
+}
+#album-title {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 40px;
+  color: #00FFCC;
+  text-align: center;
+}
+
+#about {
+  background-color: #FF9999;
+}
+#tour {
+  background-color: #FFAD99;
+}
+.tourDate {
+  font-family: Roboto, monospace;
+  font-size: 14px;
+}
+.tourDate > img {
+  height: 14px;
+}
+.tourDate > a{
+  background-color: yellow;
+}
+
+
+#merch {
+  background-color: #FFC299;
+}
+#videos {
+  background-color: #99FFBB;
+}
+#contact {
+  background-color: #9999FF;
+}
+#subscribe {
+  background-color: #D699FF;
+}
