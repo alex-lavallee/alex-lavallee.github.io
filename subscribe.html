@@ -9,28 +9,71 @@
   <link rel="stylesheet" href="styles.css">
   <link href="https://fonts.googleapis.com/css?family=Major+Mono+Display|Alegreya+Sans+SC|Amatic+SC|Concert+One|Fredoka+One|Luckiest+Guy|Permanent+Marker|Sigmar+One&display=swap" rel="stylesheet">
 <!-- Scripts -->
-  <script src="svg.js"></script>
+  <script src="svg_test_1.js"></script>
+
+  <style>
+input[type=email] {
+  background-color: #00FFCC;
+  padding: 30px 5px;
+  border: none;
+  margin: 20px 0;
+  color:#000;
+
+}
+
+input[type=email]:focus {
+  background-color: #000;
+  color:#00FFCC;
+}
+  .submit-btn{
+    background-color: #00FFCC;
+    padding: 30px 5px;
+    border: none;
+    margin: 20px 0;
+
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  </style>
+
 </head>
 
 <body>
 
-  <!--CSS: input and button tags -->
+  <header>
+    <div class="flex-tower">
+      <h1 class="col"><a href="index.html">Naked Giants</a></h1>
+      <div id="navigation">
+        <div class="flex-grid">
+          <div class="col"><a href="about.html">About</a></div>
+          <div class="col"><a href="tour.html">Tour</a></div>
+          <div class="col"><a href="videos.html">Videos</a></div>
+          <div class="col"><a href="contact.html">Contact</a></div>
+          <div class="col"><a href="subscribe.html">Subscribe</a></div>
+        </div>
+      </div>
+      <svg>
+        <path id="top" d="M10,10 L50,100 L90,50"></path>
+      </svg>
+      </div>
+  </header>
+<!--
+CSS:
+input and button tags
+center form
+-->
   <div id="subscribe">
     <h2>Subscribe!</h2>
     <div class="flex-grid">
       <div>
         <form method="post" action="index.html" autocomplete="on">
-          <input type="email" name="email" required placeholder="Enter an Email here to" maxlength="0" autofocus />
-          <button type="submit">get the latest Naked Giants news!</button>
+          <input type="email" name="email" required placeholder="Enter an Email here to" maxlength="50" />
+          <button class="submit-btn"type="submit">get the latest Naked Giants news!</button>
         </form>
       </div>
     </div>
   </div>
-
-<!--Copyright -->
-<footer>
-  <div>American Flag Icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" 			    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
-</footer>
 
 </body>
 </html>

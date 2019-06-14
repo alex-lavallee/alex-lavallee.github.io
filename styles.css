@@ -32,7 +32,7 @@
 /*Scalable Vector Graphics*/
 svg {
   width: 600px;
-  height: 400px;
+  height: 120px;
 }
 
 path {
@@ -51,9 +51,11 @@ path {
 }
 body {
   padding: 20px;
+  color: #FFF;
+  background-color: #000;
 }
 .flex-grid, .flex-tower {
-  margin: 0 0 200px 0;
+  margin: 0 0 0 0;
 }
 .col {
   padding: 20px;
@@ -62,7 +64,24 @@ body {
 header h1 {
   font-family: 'Permanent Marker', cursive;
   font-size: 64px;
+  color: #00FFCC;
+  text-align: center;
 }
+header h1 a{
+text-decoration: none;
+}
+
+h2{
+  font-family: 'Permanent Marker', cursive;
+  font-size: 64px;
+  color: #00FFCC;
+  text-align: center;
+}
+
+a:link {color: #00FFCC}
+a:visited {color: #00FFCC}
+a:hover {color: #FFF}
+a:active {color: #FFF}
 
 #navigation {
   background-color: #000;
@@ -78,54 +97,96 @@ header h1 {
 #navigation a:active {color: #FFF}
 
 #album {
-  background-color: #FFA7A7;
+  background-color: #000;
   align-items:center;
 }
 #album-art {
-  background-color: #000;
+  background-color: #00FFCC;
   width: 500px;
   height: 500px;
+  border: red 2px;
 }
 #album-artist {
   font-family: 'Permanent Marker', cursive;
   font-size: 60px;
-  color: #00FFCC;
+  color: #000;
   text-align: center;
 }
 #album-title {
   font-family: 'Permanent Marker', cursive;
   font-size: 40px;
-  color: #00FFCC;
+  color: #000;
   text-align: center;
 }
 
+.spotify-btn {
+  align-items:center;
+  font-family: 'Permanent Marker', cursive;
+    color: #000;
+    margin: 20px;
+}
+.spotify-btn a{
+  background-color: #00FFCC;
+  padding: 20px;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+.spotify-btn a:link{
+color: #000;
+}
+.spotify-btn a:visited{
+color: #000;
+}
+.spotify-btn a:hover{
+color: #000;
+}
+.spotify-btn a:active{
+color: #000;
+}
+
 #about {
-  background-color: #FF9999;
+  font-family: 'Permanent Marker', cursive;
+  font-size:30px;
+  margin: 30px;
+  color: #00FFCC;
 }
 #tour {
-  background-color: #FFAD99;
+
 }
 .tourDate {
   font-family: Roboto, monospace;
-  font-size: 14px;
+  font-size: 16px;
+  margin: 30px;
+  color: #00FFCC;
 }
 .tourDate > img {
-  height: 14px;
+  height: 3em;
 }
 .tourDate > a{
-  background-color: yellow;
+  color: #00FFCC;
+  font-family: 'Permanent Marker', cursive;
+  padding: 10px;
+  text-decoration: none;
+  border: solid 1px #00FFCC;
 }
 
 
-#merch {
-  background-color: #FFC299;
-}
 #videos {
-  background-color: #99FFBB;
 }
 #contact {
-  background-color: #9999FF;
+  font-family: Roboto, monospace;
+  font-size:30px;
+  margin: 30px;
+  color: #00FFCC;
 }
 #subscribe {
-  background-color: #D699FF;
 }
+
+/*
+
+color: #00FFCC;
+background-color: #D699FF;
+font-family: 'Permanent Marker', cursive;
+
+*/
