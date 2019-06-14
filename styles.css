@@ -29,6 +29,20 @@
   }
 }
 
+/*Scalable Vector Graphics*/
+svg {
+  width: 600px;
+  height: 400px;
+}
+
+path {
+  stroke: #00FFCC;
+  stroke-width: 3px;
+  stroke-linecap: round;
+  fill: none;
+}
+
+
 
 
 
